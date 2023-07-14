@@ -1,0 +1,21 @@
+#include<iostream>
+using namespace std;
+
+int main()
+{
+    //left shift "<<"
+    
+    // how much time we shift the number we will get multiple of 2
+    // hence while shifting 1 to left 1 time we will get 2 and so on.
+    int LeftShift = 1 << 1;
+    
+    cout << LeftShift << endl;
+    
+    // right shift ">>"
+    // how much time we shift the number we will get the number divided by 2
+    // hence while shifting 2 to right 1 time we will get 1 and so on.
+    int RightShift = 2 >> 1;
+    cout << RightShift << endl;
+    
+    return 0;
+}
